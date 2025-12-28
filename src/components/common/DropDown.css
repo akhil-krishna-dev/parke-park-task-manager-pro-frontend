@@ -1,0 +1,30 @@
+.dropdown-container {
+	display: inline;
+	position: relative;
+	top: -11px;
+}
+.dropdown-container .dropdown {
+	position: absolute;
+	top: 0px;
+	left: 20px;
+	background-color: white;
+	cursor: pointer;
+	min-width: 150px;
+}
+.dropdown-container .dropdown .label {
+	border-radius: 2px;
+	border: solid 1px rgb(232, 226, 226);
+	display: flex;
+	align-items: center;
+	transition: all 0.5s linear;
+	padding: 8px;
+	margin-bottom: 2px;
+}
+.dropdown-container .dropdown .label svg.is-open {
+	rotate: 180deg;
+}
+.dropdown-container .dropdown .option {
+	border: solid 1px rgb(197, 197, 196);
+	transition: all 0.5s linear;
+	padding: 10px;
+}

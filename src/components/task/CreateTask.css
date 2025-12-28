@@ -1,0 +1,42 @@
+.create-task-container {
+	width: 50%;
+	height: 50vh;
+	background-color: rgb(247, 245, 245);
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	padding: 60px;
+	color: green;
+}
+.create-task-container input {
+	background-color: #f5f8fa;
+	outline: solid 2px green;
+}
+.create-task-container input:focus {
+	transition: all 0.2s linear;
+	outline: solid 2px rgb(5, 178, 5);
+}
+
+.create-task-container form .input {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.create-task-container form {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	width: 80%;
+}
+.create-task-container form .input select {
+	padding: 15px;
+	font-size: 15px;
+	border-radius: 26px;
+	outline: green;
+	width: 20%;
+}
+.create-task-container form .submit {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
